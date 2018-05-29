@@ -6,6 +6,7 @@ import { PagesModule } from './pages/pages.module';
 
 import { APP_ROUTES } from './app.routes';
 import { LoginComponent } from './login/login.component';
+import { RegisterComponent } from './login/register.component';
 import { SharedModule } from './shared/shared.module';
 
 
@@ -14,7 +15,8 @@ import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
