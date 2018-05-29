@@ -7,6 +7,7 @@ import { PagesModule } from './pages/pages.module';
 import { APP_ROUTES } from './app.routes';
 import { LoginComponent } from './login/login.component';
 import { SharedModule } from './shared/shared.module';
+import { ServiceModule } from './services/service.module';
 
 
 
@@ -20,7 +21,8 @@ import { SharedModule } from './shared/shared.module';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    SharedModule
+    SharedModule,
+    ServiceModule
   ],
   providers: [],
   bootstrap: [AppComponent]
