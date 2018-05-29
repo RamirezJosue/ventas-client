@@ -7,6 +7,9 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
+import { RegisterComponent } from './register/register.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -14,7 +17,8 @@ import { PagesComponent } from './pages.component';
         PagesComponent,
         DashboardComponent,
         ProgressComponent,
-        Graficas1Component
+        Graficas1Component,
+        RegisterComponent
     ],
     exports: [
         DashboardComponent,
@@ -23,7 +27,8 @@ import { PagesComponent } from './pages.component';
     ],
     imports: [
         SharedModule,
-        PAGE_ROUTES
+        PAGE_ROUTES,
+        ReactiveFormsModule
     ]
 })
 export class PagesModule { }
