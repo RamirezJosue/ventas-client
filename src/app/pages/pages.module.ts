@@ -8,10 +8,9 @@ import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
 
-
-import { ReactiveFormsModule } from '@angular/forms';
 import { UsuarioComponent } from './usuarios/usuario.component';
 import { UsuariosComponent } from './usuarios/usuarios.component';
+import { PipesModule } from '../pipes/pipes.module';
 
 
 @NgModule({
@@ -31,7 +30,7 @@ import { UsuariosComponent } from './usuarios/usuarios.component';
     imports: [
         SharedModule,
         PAGE_ROUTES,
-        ReactiveFormsModule
+        PipesModule
     ]
 })
 export class PagesModule { }
