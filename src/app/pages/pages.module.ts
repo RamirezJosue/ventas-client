@@ -7,9 +7,11 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
 import { PagesComponent } from './pages.component';
-import { RegisterComponent } from './register/register.component';
+
 
 import { ReactiveFormsModule } from '@angular/forms';
+import { UsuarioComponent } from './usuarios/usuario.component';
+import { UsuariosComponent } from './usuarios/usuarios.component';
 
 
 @NgModule({
@@ -18,7 +20,8 @@ import { ReactiveFormsModule } from '@angular/forms';
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        RegisterComponent
+        UsuarioComponent,
+        UsuariosComponent
     ],
     exports: [
         DashboardComponent,
